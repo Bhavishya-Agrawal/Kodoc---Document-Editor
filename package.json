@@ -1,0 +1,10 @@
+{
+  "name": "kodoc-vcs-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "npm run build --prefix frontend",
+    "start": "node server/server.js",
+    "dev": "start cmd.exe /k \"cd server && npm run dev\" & start cmd.exe /k \"cd frontend && npm run dev\""
+  }
+}
